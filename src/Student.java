@@ -72,7 +72,7 @@ public class Student {
 	
 	@Override
 	public String toString() {
-		return String.format("%-10s\t%10s\t%5d%5d%5d%5d\t\t%5d%8.2f%3c%n",
+		return String.format("%-10s\t%10s\t%5d%5d%5d%5d\t\t%5d%8.2f%3c",
 				hakbun, name, kor, eng, mat, edp, tot, avg, grade);
 	}
 	
